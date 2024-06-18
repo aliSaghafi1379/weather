@@ -1,0 +1,262 @@
+[
+  {
+    "lat": "35",
+    "long": "51",
+    "date": 1718092003,
+    "location_name": "شهر تهران",
+    "temp": {
+      "now": 26.81,
+      "min": 31.75,
+      "max": 22.8
+    },
+    "weather": {
+      "icon_type": "https://farm.mcinext.com/_next/static/media/cloudy-day-2.5d67b3ac.svg",
+      "desc": "ابرهای پراکنده"
+    },
+    "rain_prob": 100,
+    "wind": {
+      "speed": 2.06,
+      "angle": 250
+    },
+    "dew_point": 1.83,
+    "humidity": 14,
+    "pressure": 1014,
+    "uv": 10.2,
+    "sunrise": 1718068700,
+    "sunset": 1718121031,
+    "future_hours": [
+      {
+        "date": "اکنون",
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/cloudy.2d7a11d8.svg",
+          "desc": "ابرهای پراکنده"
+        },
+        "temp": 32,
+        "id": 1
+      },
+      {
+        "date": 1722113011,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/cloudy.2d7a11d8.svg",
+          "desc": "ابرهای پراکنده"
+        },
+        "temp": 32,
+        "id": 2
+      },
+      {
+        "date": 1723113011,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/rainy-1.59de0a12.svg",
+          "desc": "کمی ابری"
+        },
+        "temp": 33,
+        "id": 3
+      },
+      {
+        "date": 1727113011,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/rainy-1.59de0a12.svg",
+          "desc": "کمی ابری"
+        },
+        "temp": 34,
+        "id": 4
+      },
+      {
+        "date": 1731113011,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/day.131505b4.svg",
+          "desc": "کمی ابری"
+        },
+        "temp": 34,
+        "id": 5
+      }
+    ],
+    "future_days": [
+      {
+        "date": "امروز",
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/rainy-1.59de0a12.svg",
+          "desc": "بارش خفیف باران"
+        },
+        "temp": {
+          "min": 22.75,
+          "max": 26.8
+        },
+        "id": 1
+      },
+      {
+        "date": 1618181000,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/day.131505b4.svg",
+          "desc": "آسمان صاف"
+        },
+        "temp": {
+          "min": 28.05,
+          "max": 34.86
+        },
+        "id": 2
+      },
+      {
+        "date": 1718267400,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/day.131505b4.svg",
+          "desc": "آسمان صاف"
+        },
+        "temp": {
+          "min": 28.08,
+          "max": 36.39
+        },
+        "id": 3
+      },
+      {
+        "date": 1818353800,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/cloudy.2d7a11d8.svg",
+          "desc": "پوشیده از ابر"
+        },
+        "temp": {
+          "min": 27.28,
+          "max": 34.15
+        },
+        "id": 4
+      },
+      {
+        "date": 1918440200,
+        "weather": {
+          "icon_type": "https://farm.mcinext.com/_next/static/media/rainy-1.59de0a12.svg",
+          "desc": "بارش خفیف باران"
+        },
+        "temp": {
+          "min": 28.58,
+          "max": 34.52
+        },
+        "id": 5
+      }
+    ]
+  },
+  {
+    "lat": "45",
+    "long": "-78",
+    "date": 1718092003,
+    "location_name": "شهر مشهد",
+    "temp": {
+      "now": 32.81,
+      "min": 25.75,
+      "max": 34.8
+    },
+    "weather": {
+      "icon_type": "scattered_clouds",
+      "desc": "ابرهای پراکنده"
+    },
+    "rain_prob": 100,
+    "wind": {
+      "speed": 2.06,
+      "angle": 250
+    },
+    "dew_point": 1.83,
+    "humidity": 14,
+    "pressure": 1014,
+    "uv": 10.2,
+    "sunrise": 1718068700,
+    "sunset": 1718121031,
+    "future_hours": [
+      {
+        "date": 1718092800,
+        "weather": {
+          "icon_type": "scattered_clouds",
+          "desc": "ابرهای پراکنده"
+        },
+        "temp": 32
+      },
+      {
+        "date": 1718096400,
+        "weather": {
+          "icon_type": "scattered_clouds",
+          "desc": "ابرهای پراکنده"
+        },
+        "temp": 32
+      },
+      {
+        "date": 1718100000,
+        "weather": {
+          "icon_type": "few_clouds",
+          "desc": "کمی ابری"
+        },
+        "temp": 33
+      },
+      {
+        "date": 1718103600,
+        "weather": {
+          "icon_type": "few_clouds",
+          "desc": "کمی ابری"
+        },
+        "temp": 34
+      },
+      {
+        "date": 1718107200,
+        "weather": {
+          "icon_type": "few_clouds",
+          "desc": "کمی ابری"
+        },
+        "temp": 34
+      }
+    ],
+    "future_days": [
+      {
+        "date": 1718094600,
+        "weather": {
+          "icon_type": "rain",
+          "desc": "بارش خفیف باران"
+        },
+        "temp": {
+          "min": 25.75,
+          "max": 34.8
+        }
+      },
+      {
+        "date": 1718181000,
+        "weather": {
+          "icon_type": "clear_sky",
+          "desc": "آسمان صاف"
+        },
+        "temp": {
+          "min": 28.05,
+          "max": 34.86
+        }
+      },
+      {
+        "date": 1718267400,
+        "weather": {
+          "icon_type": "clear_sky",
+          "desc": "آسمان صاف"
+        },
+        "temp": {
+          "min": 28.08,
+          "max": 36.39
+        }
+      },
+      {
+        "date": 1718353800,
+        "weather": {
+          "icon_type": "broken_clouds",
+          "desc": "پوشیده از ابر"
+        },
+        "temp": {
+          "min": 27.28,
+          "max": 34.15
+        }
+      },
+      {
+        "date": 1718440200,
+        "weather": {
+          "icon_type": "rain",
+          "desc": "بارش خفیف باران"
+        },
+        "temp": {
+          "min": 28.58,
+          "max": 34.52
+        }
+      }
+    ]
+  }
+]
