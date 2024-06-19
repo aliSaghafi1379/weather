@@ -1,27 +1,29 @@
 import { useEffect, useState } from "react";
 
+interface IUser {
+  latitude: number;
+  longitude: number;
+}
 const useGeoLocation = () => {
-  interface IUser {
-    latitude: number;
-    longitude: number;
-  }
   const [location, setLocation] = useState<IUser>({} as IUser);
+  const [err, setErr] = useState<string>();
+
   useEffect(() => {
-    const success = (position: any) => {
-      const latitude = position.coords.latitude;
-      const longitude = position.coords.longitude;
+    const success = (position: { coords: IUser }) => {
+      const latitude: number = position.coords.latitude;
+      const longitude : number = position.coords.longitude;
       setLocation({ latitude, longitude });
     };
-    // const error = () => {
-    //   alert("error");
-    // };
+    const error = () => {
+      setErr("دسترسی به موقعیت مکانی قطع شده است");
+    };
 
-    (navigator as any).geolocation
-      ? (navigator as any).geolocation.getCurrentPosition(success)
-      : alert("no");
+    navigator.geolocation
+      ? navigator.geolocation.getCurrentPosition(success, error)
+      : setErr("دسترسی به موقعیت مکانی قطع شده است");
   }, [location]);
 
-  return location;
+  return { location, err };
 };
 
 export default useGeoLocation;

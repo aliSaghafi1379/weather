@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import useGeoLocation from "./useGeoLocation";
 export interface IUsers {
-  data: string;
   location_name: string;
   temp: {
     now: number;
@@ -13,6 +12,7 @@ export interface IUsers {
     desc: string;
   };
   wind: {
+    dew_point: any;
     speed: number;
   };
   dew_point: number;
@@ -44,11 +44,10 @@ export interface IUsers {
   }[];
 }
 const useData = () => {
-  const location = useGeoLocation();
+  const { location } = useGeoLocation();
 
-  const [data, setData] = useState<IUsers>({} as IUsers);
+  const [data, setData] = useState({} as IUsers);
   const [loading, steLoading] = useState(true);
-
   const latitude = Math.floor(location.latitude);
   const longitude = Math.floor(location.longitude);
 
@@ -65,13 +64,11 @@ const useData = () => {
 
   useEffect(() => {
     if (latitude && longitude) {
-      setTimeout(() => {
-        fetching(latitude, longitude);
-      }, 2000);
+      fetching(latitude, longitude);
     }
   }, [latitude, longitude, data]);
+
   return { loading, data };
 };
 
 export default useData;
-export type { IUsers as IUsersType };

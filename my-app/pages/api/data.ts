@@ -7,7 +7,7 @@ export default async function handler(
 ) {
   if (req.method === "GET") {
     const { lat, long } = req.query;
-    const findLat: any = data.find((el: any) => {
+    const findLat: any = data.find((el: { lat: string }) => {
       return el.lat === lat;
     });
     const findLong: any = data.find(() => {
