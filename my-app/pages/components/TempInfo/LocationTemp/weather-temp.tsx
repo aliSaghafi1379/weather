@@ -23,7 +23,7 @@ const WeatherTemp = ({ data }: DataType) => {
         height={64}
         decoding="async"
         data-nimg="1"
-        src="https://farm.mcinext.com/_next/static/media/cloudy-day-2.5d67b3ac.svg"
+        src="https://cdn.meteocons.com/3.0.0-next.10/svg/fill/cloudy.svg"
       />
       <p className="text-3xl">
         {Pn(data?.temp?.now)}

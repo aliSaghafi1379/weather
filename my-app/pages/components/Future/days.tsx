@@ -41,7 +41,7 @@ const Days = () => {
         </div>
         <div className="w-full flex flex-col justify-center items-center">
           <span
-            className={`w-full flex justify-center items-center text-2xl ${
+            className={`w-full flex justify-center items-center text-xl ${
               inf.date === "امروز" ? "text-white" : "text-black"
             }`}
           >

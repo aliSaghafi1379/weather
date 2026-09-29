@@ -66,7 +66,7 @@ const useData = () => {
     if (latitude && longitude) {
       fetching(latitude, longitude);
     }
-  }, [latitude, longitude, data]);
+  }, [latitude, longitude]);
 
   return { loading, data };
 };

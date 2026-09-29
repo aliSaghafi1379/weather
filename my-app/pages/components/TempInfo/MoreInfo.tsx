@@ -21,14 +21,14 @@ const MoreInfo = () => {
           inf={data?.wind?.speed}
           val={"متر / ساعت"}
           icon={
-            "https://farm.mcinext.com/_next/static/media/navigation.a2688b3b.svg"
+            "https://cdn.meteocons.com/3.0.0-next.10/svg/monochrome/wind.svg"
           }
           w={20}
         />
         <Box
           name={"نقطه شبنم"}
           inf={data?.dew_point}
-          icon={"https://farm.mcinext.com/_next/static/media/dew.08b3ea9a.svg"}
+          icon={"https://cdn.meteocons.com/3.0.0-next.10/svg/fill/pollen-weed.svg"}
           w={30}
         />
         <Box
@@ -36,7 +36,7 @@ const MoreInfo = () => {
           inf={data?.humidity}
           val="%"
           icon={
-            "https://farm.mcinext.com/_next/static/media/humidity.5602dd5c.svg"
+            "https://cdn.meteocons.com/3.0.0-next.10/svg/fill/humidity.svg"
           }
           w={30}
         />
@@ -47,14 +47,14 @@ const MoreInfo = () => {
           sunriseTime={sunriseTime}
           sunsetTime={sunsetTime}
           icon={
-            "https://farm.mcinext.com/_next/static/media/sunrise.a0cc69dd.svg"
+            "https://cdn.meteocons.com/3.0.0-next.10/svg/fill/sunrise.svg"
           }
           w={45}
         />
         <Box
           name={"UV"}
           inf={data?.uv}
-          icon={"https://farm.mcinext.com/_next/static/media/uv.7bceb313.svg"}
+          icon={"https://cdn.meteocons.com/3.0.0-next.10/svg/fill/uv-index.svg"}
           w={40}
         />
         <Box
@@ -62,7 +62,7 @@ const MoreInfo = () => {
           inf={data?.humidity}
           val="hpa"
           icon={
-            "https://farm.mcinext.com/_next/static/media/airPressure.d22077b4.svg"
+            "https://cdn.meteocons.com/3.0.0-next.10/svg/fill/pressure-high.svg"
           }
           w={40}
         />
