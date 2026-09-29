@@ -1,4 +1,3 @@
-import useInfoTemp from "@/pages/hooks/useInfoTemp";
 import { Skeleton } from "@mui/material";
 import Image from "next/image";
 
