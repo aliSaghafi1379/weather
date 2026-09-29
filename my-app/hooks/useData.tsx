@@ -52,7 +52,7 @@ const useData = () => {
   const longitude = Math.floor(location.longitude);
 
   const fetching = (lat: number, long: number) => {
-    fetch(`http://localhost:3000/api/data?lat=${lat}&long=${long}`)
+    fetch(`/api/data?lat=${lat}&long=${long}`)
       .then((res) => {
         return res.json();
       })

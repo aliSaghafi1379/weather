@@ -21,7 +21,7 @@ const useGeoLocation = () => {
     navigator.geolocation
       ? navigator.geolocation.getCurrentPosition(success, error)
       : setErr("دسترسی به موقعیت مکانی قطع شده است");
-  }, [location]);
+  }, []);
 
   return { location, err };
 };
