@@ -1,4 +1,4 @@
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 import { Skeleton } from "@mui/material";
 import Image from "next/image";
 const PN = require("persian-number");

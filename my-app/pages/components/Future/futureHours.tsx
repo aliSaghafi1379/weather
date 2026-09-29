@@ -1,4 +1,4 @@
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 import Hours from "./hours";
 import Loader from "./loaders";
 

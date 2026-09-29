@@ -1,5 +1,5 @@
 import Box from "./MoreInfoDetails/box";
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 const PN = require("persian-number");
 
 const MoreInfo = () => {

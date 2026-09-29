@@ -20,7 +20,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/hooks/useGeoLocation.tsx"
+    "hooks/useGeoLocation.tsx"
   ],
   "exclude": ["node_modules"]
 }

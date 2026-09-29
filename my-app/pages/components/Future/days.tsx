@@ -1,4 +1,4 @@
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 import Image from "next/image";
 import { date } from "../TempInfo/Calendar";
 import { Pn } from "@/pages";

@@ -2,7 +2,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Image from "next/image";
 import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import Link from "next/link";
-import useData from "../hooks/useData";
+import useData from "../../hooks/useData";
 import { Pn } from "..";
 
 const InfoHome = () => {

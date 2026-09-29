@@ -1,5 +1,5 @@
 import { Skeleton } from "@mui/material";
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 import WeatherTemp from "./weather-temp";
 import PlaceIcon from "@mui/icons-material/Place";
 

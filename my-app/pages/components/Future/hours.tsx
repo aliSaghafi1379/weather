@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Pn } from "@/pages";
-import useData from "@/pages/hooks/useData";
+import useData from "@/hooks/useData";
 const PN = require("persian-number");
 
 const Hours = () => {

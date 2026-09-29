@@ -1,5 +1,5 @@
 import InfoHome from "./components/infoHome";
-import useGeoLocation from "./hooks/useGeoLocation";
+import useGeoLocation from "../hooks/useGeoLocation";
 import { Alert } from "@mui/material";
 const PN = require("persian-number");
 
